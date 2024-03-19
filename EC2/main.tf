@@ -5,6 +5,6 @@ resource "aws_instance" "ec2" {
   ami = "ami-0f5daaa3a7fb3378b"
   
 tags = {
-  Name="Ubuntu-server"
+  Name="Ubuntu-server2"
 }
 }
