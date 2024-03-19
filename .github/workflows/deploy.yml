@@ -21,7 +21,7 @@ jobs:
               uses: hashicorp/setup-terraform@v2
             - name: Terraform Init
               id: init
-              run: terraform init
+              run: sudo terraform init
               working-directory: ./EC2
             - name: Terraform fmt
               id: fmt
