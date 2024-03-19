@@ -22,11 +22,11 @@ jobs:
             - name: Terraform Init
               id: init
               run: terraform init
-              working-directory: ./EC2-Using-GitHubActions/EC2
+              working-directory: ./EC2
             - name: Terraform fmt
               id: fmt
               run: terraform fmt
-              working-directory: ./EC2-Using-GitHubActions/EC2
+              working-directory: ./EC2
             - name: Terraform Validate
               id: validate
               run: terraform validate
